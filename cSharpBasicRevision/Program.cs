@@ -8,7 +8,7 @@ namespace cSharpBasicRevision
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello c Sharp");
+            Console.WriteLine("List in C Sharp");
 
             List<int> myList = new List<int>()
             {
@@ -25,7 +25,7 @@ namespace cSharpBasicRevision
                 new Student { Id = 2, Name = "Mustafa", LastName = "Andeshwar" }
             };
 
-            // Select list elements with linq in s sharp
+            Console.WriteLine("Select list elements wiht linq");
             var result = from x in students where x.Name == "Jawid" select x;
             foreach (var student in result)
             {
@@ -34,6 +34,7 @@ namespace cSharpBasicRevision
 
             // Playing with git branche commands 
             // Getting with c sharp basics
+
 
             Console.ReadKey();
         }
