@@ -25,6 +25,7 @@ namespace cSharpBasicRevision
                 new Student { Id = 2, Name = "Mustafa", LastName = "Andeshwar" }
             };
 
+            // Select list elements with linq in s sharp
             var result = from x in students where x.Name == "Jawid" select x;
             foreach (var student in result)
             {
